@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="ja"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>かみさまを演じわたし</title>
+</head>
+<body>
+   
+   
+    <p>8,13,25,5,12,1,15,B,22,5,22,14,5,＆,9,19,18,9,9,B,14,19,19,9,D,4,5,3,1,I,19,15,13,16,B,21,1,20,5,C,14,18,15 <p>
+
+    
+    <p>name+place+year+month+day=?<p>
+
+<p>※＆＝0</p>
+
+
+
+<script>
+  
+        const correctNumber = 2067;
+
+        function checkNumber() {
+           
+            const userInput = document.getElementById("userInput").value;
+
+            
+            if (parseInt(userInput) === correctNumber) {
+                
+                window.location.href = "https://hritR2067.com";  
+            } else {
+            
+                alert("違う。");
+            }
+        }
+    </script>
+</head>
+<body>
+
+  
+
+    
+    <input type="text" id="userInput" placeholder="?">
+    <button onclick="checkNumber()">確認</button>
+
+
+
+
+
+</body>
+</html>
